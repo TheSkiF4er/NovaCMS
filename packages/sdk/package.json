@@ -1,0 +1,22 @@
+{
+  "name": "@novacms/sdk",
+  "version": "1.0.0",
+  "private": false,
+  "license": "Apache-2.0",
+  "author": "TheSkiF4er",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "undici": "^6.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "eslint": "^9.0.0",
+    "vitest": "^2.0.0"
+  }
+}
